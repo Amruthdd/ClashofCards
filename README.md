@@ -2,4 +2,4 @@
 
 React-Native Project
 
-nb:change the API Key in api/clash.js with your key.
+nb:change the API Key in src/api/clash.js with your key.
