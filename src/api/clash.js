@@ -1,0 +1,9 @@
+import axios from 'axios';
+
+export default axios.create({
+    baseURL:'https://api.clashofclans.com/v1',
+    headers: {
+        'Accept':'application/json',
+        'authorization':'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6ImQyMDY0MGY2LTA1YWUtNDZlYy04ZmMyLWEyOGFkOTRiNzljMyIsImlhdCI6MTU5ODM3NTU5Mywic3ViIjoiZGV2ZWxvcGVyLzkyMWVhMDUyLTVlZGYtYWM3ZS0yZTM1LTY2MjIwZjgyYzRiNCIsInNjb3BlcyI6WyJjbGFzaCJdLCJsaW1pdHMiOlt7InRpZXIiOiJkZXZlbG9wZXIvc2lsdmVyIiwidHlwZSI6InRocm90dGxpbmcifSx7ImNpZHJzIjpbIjE1Ny40NC4xMzQuMTA3IiwiMTU3LjQ0LjEzNC4yMzYiLCIxNTcuNDQuMTQyLjIxOSIsIjE1Ny40NC4xNDYuMjAxIl0sInR5cGUiOiJjbGllbnQifV19.3OTT62T0fjsVjA88hZSuuEAalIwfmiwhMOxWNfefOrePK4ZVlcUbuAmkdnnADqY_Rsw3GsWy3Fj12UboNFYgiA'
+    }
+});
