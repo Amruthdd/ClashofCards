@@ -60,8 +60,8 @@ const ListScreen = ({navigation}) => {
                                             <View>
 
                                                     <Text style={styles.clanName}>{item.name}</Text>
-                                                    <Text style={styles.clanDetails}>Clan Points:{item.clanPoints}</Text>
-                                                    <Text style={styles.clanDetails}>No.of Members:{item.members}</Text></View>
+                                                    <Text style={styles.clanDetails}>Clan Points: {item.clanPoints}</Text>
+                                                    <Text style={styles.clanDetails}>No.of Members: {item.members}</Text></View>
                                             
                                             </View>
 
@@ -160,11 +160,8 @@ const styles = StyleSheet.create({
     },
     clanDetails: {
         
-        fontSize: 14,
-        textShadowColor:'#101010',
-        textShadowOffset:{width: 1, height: 2},
-        textShadowRadius:1,
-        fontFamily:"Supercell-magic-webfont",
+        fontSize: 18,
+        fontFamily:"Nexa Bold",
         alignSelf:'center',
         marginTop: 15,
         color:'white'

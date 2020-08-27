@@ -70,20 +70,19 @@ const ResultsShowScreen = ({navigation}) => {
                                                
                                                 <Text style={styles.clanName}>{item.name}</Text>
                                                 <View style={{flex:1,flexDirection:"row"}}>
-                                                    <Text style={styles.clanDetails}>Rank:{item.clanRank}</Text>
-                                                    <Text style={styles.clanDetails}>Role:{item.role}</Text>
+                                                    <Text style={styles.clanDetails}>Rank:  {item.clanRank}</Text>
+                                                    <Text style={styles.clanDetails}>Role:  {item.role}</Text>
                                                 </View>
 
-                                                <View style={{flex:1,flexDirection:"row",position:"relative",marginTop:-20}}>
-                                                    <Text style={styles.clanDetails}>Donations:{item.donations}</Text>
-                                                    <Text style={styles.clanDetails}>Expert Level:{item.expLevel}</Text>
+                                                <View style={{flex:1,flexDirection:"row",position:"relative"}}>
+                                                    <Text style={styles.clanDetails}>Donations:  {item.donations}</Text>
                                                 </View>
-
+                                                <Text style={[{marginBottom:10},styles.clanDetails]}>Expert Level:  {item.expLevel}</Text>
                                             </View>
                                        
                                         
                                             <View style={styles.round}>
-                                                    <Icon name="chevron-right" size={20} style={{alignSelf:"center", marginTop:8, marginLeft:4}}/>
+                                                    <Icon name="chevron-right" size={20} style={{alignSelf:"center", marginTop:6, marginLeft:4}}/>
                                             </View>
                                         </View>
                                     </LinearGradient>
@@ -131,8 +130,8 @@ const styles = StyleSheet.create({
         alignSelf:"center",
         backgroundColor:"#fff",
         borderRadius:100,
-        width:110,
-        height:110,
+        width:80,
+        height:80,
         marginLeft:10,
         marginTop:10,
         marginBottom:10,
@@ -143,10 +142,11 @@ const styles = StyleSheet.create({
 
     },
     clanName: {
-        fontSize: 20,
+        fontSize: 18,
         alignSelf:'flex-start',
         fontFamily:"Supercell-magic-webfont",
-        marginTop: 20,
+        marginTop: 10,
+        marginBottom:10,
         marginLeft:10,
         textShadowColor:'#333333',
         textShadowOffset:{width: 2, height: 1},
@@ -172,15 +172,13 @@ const styles = StyleSheet.create({
 
         fontSize: 14,
         fontFamily:"Nexa Bold",
-        alignSelf:'center',
-        marginTop: 10,
         marginLeft:10,
         color:'white',
         position:"relative"
     },
     image:{
-        width: 70,
-        height:70,
+        width: 50,
+        height:50,
         alignSelf:"center",
         marginTop:10, 
     },
@@ -194,8 +192,8 @@ const styles = StyleSheet.create({
         position:"relative",
         backgroundColor:"#fff",
         borderRadius:100,
-        width:35,
-        height:35,
+        width:30,
+        height:30,
         alignSelf:"center",
         marginRight:15
     },

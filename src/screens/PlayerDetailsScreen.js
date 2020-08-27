@@ -55,11 +55,11 @@ const PlayerDetailsScreen = ({navigation}) => {
 
                                         <View style={styles.details}>
                                                 
-                                                <Text style={styles.clanDetails}>Value:{item.value}</Text>
-                                                <Text style={styles.clanDetails}>Stars:{item.stars}</Text>
-                                                <Text style={styles.clanDetails}>Target:{item.target}</Text>
-                                                <Text style={styles.clanDetails}>Village:{item.village}</Text>
-                                                <Text style={styles.clanDetails}>Completion Info:{item.completionInfo}</Text>
+                                                <Text style={styles.clanDetails}>Value: {item.value}</Text>
+                                                <Text style={styles.clanDetails}>Stars: {item.stars}</Text>
+                                                <Text style={styles.clanDetails}>Target: {item.target}</Text>
+                                                <Text style={styles.clanDetails}>Village: {item.village}</Text>
+                                                <Text style={styles.clanDetails}>Completion Info: {item.completionInfo}</Text>
                                         </View>
 
                                 </LinearGradient>
